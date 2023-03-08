@@ -95,6 +95,13 @@
     
 }
 
+@media screen and (device-width:912px) {
+    .smallCard{
+        height: 65vh;
+    }
+    
+}
+
 
 @media screen and (max-width:768px) {
 
@@ -153,5 +160,16 @@
         width: 40vw;
     }
 
+    
+}
+
+@media screen and (max-width:350px) {
+    .smallCard{
+        height: 70vh;
+    }
+
+    .cards{
+        height: 230vh;
+    }
     
 }

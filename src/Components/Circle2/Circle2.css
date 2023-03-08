@@ -48,6 +48,30 @@
     
   }
 
+  @media screen and (device-width:1024px) and (device-height:1366px) {
+
+    .imageContainers img{
+      height: 13vh;
+    }
+
+    .food{
+      height: 20vh;
+    }
+    
+    
+}
+
+  @media screen and (device-width:912px) {
+    .imageContainers img{
+      height: 15vh;
+    }
+
+    .food{
+      height: 25vh;
+    }
+    
+  }
+
 
   @media screen and (device-width:820px) {
     .imageContainers img{
@@ -68,6 +92,18 @@
   @media screen and (max-width:768px){
     .imageContainers img{
         
+    }
+
+    
+  }
+
+  @media screen and (device-width:712px) {
+    .imageContainers img{
+      height: 13vh;
+    }
+
+    .food{
+      height: 20vh;
     }
 
     

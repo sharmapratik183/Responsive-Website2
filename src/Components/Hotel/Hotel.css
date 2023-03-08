@@ -103,13 +103,45 @@
 
     .right img{
         width: 35vw;
-        height: 40vh;
+        height: 45vh;
         
     }
 
     .pamper{
        
     }
+    
+    
+}
+
+@media screen and (device-width:1024px) and (device-height:1366px) {
+    .image{
+        height: 40vh;
+    }
+
+    .right img{
+        height: 35vh;
+    }
+    
+}
+
+
+@media screen and (device-width:1024px) and (device-height:600px) {
+    .image{
+        height: 65vh;
+    }
+
+    .right img{
+        height: 50vh;
+    }
+    
+}
+
+@media screen and (device-width:912px) {
+    .image{
+        height: 50vh;
+    }
+
     
     
 }
@@ -124,6 +156,8 @@
     }
     
 }
+
+
 
 
 @media screen and (max-width:768px) {
@@ -149,6 +183,24 @@
 
     
 
+}
+
+@media screen and (device-width:768px) {
+    .image{
+        height: 55vh;
+    }
+    
+}
+
+@media screen and (device-width:712px) {
+    .right img{
+        height: 30vh;
+    }
+
+    .image{
+        height: 40vh;
+    }
+    
 }
 
 @media screen and (max-width:520px) {
@@ -270,6 +322,15 @@
    
 }
 
+
+
+@media screen and (max-width:416px) {
+    .image{
+        height: 40vh;
+    }
+    
+}
+
 @media screen and (max-width:400px) {
     .image{
         height: 40vh;
@@ -280,6 +341,22 @@
 @media screen and (max-width:350px) {
     .image{
         height: 55vh;
+    }
+
+    .right img{
+        width: 20vw;
+        height: 20vh;
+        
+    }
+
+    .right{
+        height: 30vh;
+        
+    
+    }
+
+    .left{
+        height: 35vh;
     }
     
 }

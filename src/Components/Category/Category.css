@@ -2,7 +2,6 @@
     height: 100vh;
     background-color: rgba(128, 128, 128, 0.171);
     margin-top: 6rem;
-    display: grid;
 }
 
 
@@ -111,6 +110,7 @@
     .pContainer{
     
     }
+
     
     .card{
         width: 35vw;
@@ -125,6 +125,44 @@
 
     
 }
+
+@media screen and (device-width:1024px) and (device-height:1366px) {
+
+    
+    .popular{
+        height: 18vh;
+        width: 90vw;
+        margin: 3rem;
+        
+        
+    }
+    
+    .popular :nth-child(1){
+        font-size: 5rem;
+        font-weight: 600;
+    }
+    
+    .popular :nth-child(2){
+        font-size: 4rem;
+        font-weight: 450;
+        
+    }
+
+    .card{
+        width: 65vw;
+    }
+
+    .para p{
+        font-size: 3.5rem;
+    }
+
+    .pContainer{
+        height: 90vh;
+    }
+    
+}
+
+
 
 @media screen and (device-width:912px) {
 
@@ -156,6 +194,11 @@
 
 @media screen and (max-width:768px) {
 
+    .pContainer{
+        height: 100vh;
+
+    }
+
     .card{
         
         width: 75vw;
@@ -165,6 +208,13 @@
         font-size: 2rem;
     }
 
+    
+}
+
+@media screen and (device-width:712px) {
+    .pContainer{
+        margin-top: 0rem;
+    }
     
 }
 
@@ -183,10 +233,18 @@
 
 
 @media screen and (max-width:480px) {
+
+    .pContainer{
+        height: 100vh;
+    }
     .card{
         
         width: 85vw;
-        margin-bottom: 12rem;
+        
+        
+    }
+
+    .popular{
         
     }
 

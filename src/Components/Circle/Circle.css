@@ -49,6 +49,33 @@
 
   }
 
+  @media screen and (device-width:1024px) and (device-height:1366px) {
+
+    .imageContainer img{
+      height: 13vh;
+    }
+
+    .foods{
+      height: 20vh;
+    }
+    
+    
+}
+
+
+
+
+  @media screen and (device-width:912px) {
+    .imageContainer img{
+      height: 15vh;
+    }
+
+    .foods{
+      height: 25vh;
+    }
+    
+  }
+
 
   @media screen and (device-width:820px) {
     .imageContainer img{
@@ -66,6 +93,18 @@
         width: 130px;
     }
 
+    
+  }
+
+
+  @media screen and (device-width:712px) {
+    .imageContainer img{
+      height: 13vh;
+    }
+
+    .foods{
+      height: 25vh;
+    }
     
   }
 

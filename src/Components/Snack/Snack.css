@@ -22,7 +22,7 @@
 
 .circle{
     height: 25vh;
-    width: 15vw;
+    width: 18vw;
     border-radius: 100%;
     background-image: linear-gradient(45deg,orange,gold);
     text-align: center;
@@ -106,6 +106,76 @@
 }
 
 
+@media screen and (device-width:1024px) and (device-height:1366px) {
+
+    .text p{
+        font-size: 4rem;
+    }
+
+    .beverage p{
+        font-size: 5rem;
+    }
+
+    .circle{
+        margin-top: 5rem;
+        width: 32vw;
+    }
+
+    .lays{
+        width: 18vw;
+    }
+
+    .pepsi{
+        width: 18vw;
+    }
+
+    .pepsiContainer{
+        height: 55vh;
+    }
+
+    .btn3 button{
+        margin-top: 8rem;
+        width: 20rem;
+        padding: 1.5rem;
+    }
+    
+    
+}
+
+@media screen and (device-width:912px) {
+    .text p{
+        font-size: 3rem;
+    }
+
+    .beverage p{
+        font-size: 4rem;
+    }
+    .circle{
+        margin-top: 4rem;
+        width: 35vw;
+    }
+
+    .lays{
+        width: 21vw;
+    }
+
+    .pepsi{
+        width: 20vw;
+    }
+
+    .btn3 button{
+        margin-top: 10rem;
+        width: 20rem;
+        padding: 2rem;
+    }
+
+    .pepsiContainer{
+        height: 55vh;
+    }
+    
+}
+
+
 @media screen and (device-width:820px) {
 
     .beverage p{
@@ -157,6 +227,25 @@
     .pepsi{
         width: 17vw;
     }
+}
+
+@media screen and (device-width:712px) {
+    .lays{
+        width: 20vw;
+    }
+
+    .pepsi{
+        width: 20vw;
+    }
+
+    .circle{
+        width: 35vw;
+    }
+
+    .pepsiContainer{
+        height: 50vh;
+    }
+    
 }
 
 
@@ -213,6 +302,20 @@
     }
 
     
+    
+}
+
+@media screen and (max-width:350px) {
+    .pepsiContainer{
+        height: 65vh;
+    }
+    
+}
+
+@media screen and (max-width:300px) {
+    .text p{
+        font-size: 2rem;
+    }
     
 }
 
