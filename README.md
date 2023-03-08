@@ -1,4 +1,4 @@
-# Hosted Url :  https://sharmapratik183.github.io/ResponsiveWebsiteDesign/
+# Hosted Url :  https://sharmapratik183.github.io/Responsive-Website2/
 
 # Getting Started with Create React App
 
